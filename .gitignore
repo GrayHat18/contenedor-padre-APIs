@@ -1,0 +1,9 @@
+# Ignoramos todo en este directorio
+*
+
+# Excepto estos archivos
+!.gitignore
+!pom.xml
+
+# Excluimos todos los directoriores presentes
+*/
