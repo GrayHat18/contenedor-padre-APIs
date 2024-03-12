@@ -4,6 +4,7 @@
 # Excepto estos archivos
 !.gitignore
 !pom.xml
+!README.md
 
 # Excluimos todos los directoriores presentes
 */
