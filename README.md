@@ -29,7 +29,6 @@ Y la lista de submodulos actual es:
  <module>apicriptografia-encriptacion</module>
  <module>apicriptografia-usuarios</module>
  <module>apigateway</module>
- <module>apicriptografia-usuarios-roles</module>
 <modules>
 ```
 
