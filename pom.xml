@@ -28,10 +28,22 @@
                 <scope>import</scope>
             </dependency>
             
-            <dependency>
+            <!--<dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-security</artifactId>
                 <version>3.2.3</version>
+            </dependency>-->
+            
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+                <version>4.1.0</version>
+            </dependency>
+            
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-gateway-mvc</artifactId>
+                <version>4.1.1</version>
             </dependency>
             
             <dependency>
@@ -98,6 +110,7 @@
     <modules>
         <module>apicriptografia-encriptacion</module>
         <module>apicriptografia-usuarios</module>
+        <module>apieureka</module>
         <module>apigateway</module>
     </modules>
 </project>
